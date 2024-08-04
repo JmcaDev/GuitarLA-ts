@@ -1,6 +1,18 @@
-export default function Guitar({guitar, addToCart}) {
+//Inline Type
+// export default function Guitar({guitar, addToCart} : {guitar : Guitar, addToCart: (item: Guitar) => void}) {
     
-    const {id, name, image, price, description} = guitar
+import type {Guitar} from "../interfaces"
+
+//Type Separado
+interface GuitarProps {
+    guitar: Guitar,
+    addToCart: (item: Guitar) => void
+}
+
+
+export default function Guitar({guitar, addToCart} : GuitarProps){
+    
+    const {name, image, price, description} = guitar
 
     return (
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">

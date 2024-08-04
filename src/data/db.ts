@@ -1,4 +1,23 @@
-export const db = [
+
+// type Guitar = {
+//     id: number;
+//     name: string;
+//     image: string;
+//     description: string;
+//     price: number;
+// }
+
+// interface Guitar {
+//     id: number;
+//     name: string;
+//     image: string;
+//     description: string;
+//     price: number;
+// }
+
+import type { Guitar } from "../interfaces"
+
+export const db : Guitar[] = [
     {
         id: 1,
         name: 'Lukather',

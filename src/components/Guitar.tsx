@@ -1,7 +1,7 @@
 //Inline Type
 // export default function Guitar({guitar, addToCart} : {guitar : Guitar, addToCart: (item: Guitar) => void}) {
     
-import type {Guitar} from "../interfaces"
+import type {Guitar} from "../types"
 
 //Type Separado
 interface GuitarProps {

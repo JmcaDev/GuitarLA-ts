@@ -1,4 +1,4 @@
-import type { CartItem, Guitar } from "../interfaces"
+import type { CartItem, Guitar } from "../types"
 
 type HeaderProps = {
     cart: CartItem[],

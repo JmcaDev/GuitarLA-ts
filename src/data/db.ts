@@ -15,7 +15,7 @@
 //     price: number;
 // }
 
-import type { Guitar } from "../interfaces"
+import type { Guitar } from "../types"
 
 export const db : Guitar[] = [
     {

@@ -4,8 +4,8 @@ import { useState, useEffect, useMemo } from "react"
 //Base de datos
 import { db } from "../data/db.js"
 
-//Interfaces
-import type { Guitar, CartItem } from "../interfaces"
+//Types
+import type { Guitar, CartItem } from "../types/index.js"
 
 function useCart(){
 
